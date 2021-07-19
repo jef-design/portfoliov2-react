@@ -7,6 +7,7 @@
     .hero__bigheader{
         font-size: clamp(40px, 8vw, 80px);
         color: var(--textPrimaryColor);
+        font-weight: 700;
         .hero__span{
             color: var(--textSecondaryColor);
         }
@@ -32,6 +33,7 @@
             align-items: center;
             font-size: clamp(.9rem, 3.5vw, 1.2rem);
             color: var(--primaryColor);
+            
             i{
                 font-size: 2rem;
                 margin-right: 10px;

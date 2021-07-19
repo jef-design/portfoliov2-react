@@ -193,6 +193,7 @@ h1, h2, h3, h4, h5 {
 .hero .hero__bigheader {
   font-size: clamp(40px, 8vw, 80px);
   color: var(--textPrimaryColor);
+  font-weight: 700;
 }
 
 .hero .hero__bigheader .hero__span {
