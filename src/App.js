@@ -7,6 +7,7 @@ import Project from "./components/Pages/Project"
 import Footer from "./components/main/Footer/Footer";
 import { ProjectData } from "./data/ProjectData";
 import Contact from "./components/main/Contact/Contact";
+import About from "./components/Pages/About/About";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
                      <Route exact path="/" component={Home} />
                      <Route path="/project/:title" component={ProjectInfo} data={ProjectData} />
                      <Route path="/project" component={Project} data={ProjectData} />
-                     
+                     <Route path="/about" component={About} />
                  </Switch>
                  <Contact/>
                 </main>

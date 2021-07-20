@@ -6,14 +6,14 @@ function Hero() {
         <div className="hero">
             <Fade top>
             <div>
-                <h2 className="hero__bigheader">
+                <h1 className="hero__bigheader">
                     Hi there i'm <span className="hero__span">Jeff</span>
-                </h2>
+                </h1>
             </div>
             <div>
-                <h2 className="hero__bigheader">
+                <h1 className="hero__bigheader">
                     I <span className="hero__span">build</span> things for the <span className="hero__span">Web.</span>
-                </h2>
+                </h1>
             </div>
             </Fade>
            <Fade bottom>

@@ -2,7 +2,7 @@
     .project__wrapper{
         margin-top: 5rem;
         .project__container{
-            margin-top: 2rem;
+            margin-top: 3rem;
            display: flex;
            margin-bottom: 8rem;
             .project__image{
@@ -26,7 +26,7 @@
                         margin-right: 7px;
                         background-color: var(--primaryColor);
                         color: var(--textWhiteColor);
-                        padding: 2px 5px;
+                        padding: 2px 7px;
                         border-radius: 5px;
                     }
                 }
@@ -62,7 +62,7 @@
 .selected__project__wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap: 4rem;
     color: var(--textParagraphHighlight);
     @media screen and (max-width: 853px){
@@ -99,16 +99,23 @@
             }
     }
 }
-.more__Works__cta{
+.more__works__cta{
     margin-top: 2rem;
     display: flex;
     align-items: center;
     color: var(--primaryColor);
     h2{
         text-decoration: underline;
-        color: var(--primaryColor)!important;
+        color: var(--primaryColor);
+        &:hover{
+            color: var(--textParagraphHighlight);
+        }
+        
     }
     i{
         font-size: 3rem;
+    }
+    &:hover{
+        color: var(--textParagraphHighlight);
     }
 }

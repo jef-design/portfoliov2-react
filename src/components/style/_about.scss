@@ -1,0 +1,55 @@
+.about{
+
+    .about__wrapper{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5rem;
+        @media screen and (max-width: 853px){
+            grid-template-columns: repeat(1,1fr);
+        }
+        .about__info{
+            p{
+                text-align: justify;
+                text-justify: inter-word;
+            }
+        }
+        .about__skill{
+            .skill__container{
+                .skill__title{
+                 margin-bottom: 20px;
+                }
+                .skill__wrapper{
+                    padding: 15px 0;
+                    display: flex;
+                    .skill{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-right: 10px;
+                        &:nth-child(1){
+                            color: #e34c26;
+                        }
+                        &:nth-child(2){
+                            color: #264de4;
+                        }
+                        &:nth-child(3){
+                            color: #cc6699;
+                        }
+                        &:nth-child(4){
+                            color: #f9dc1c;
+                        }
+
+                        i{
+                            font-size: 3rem;
+
+                        }
+                        p{
+                            color: var(--textParagraphHighlight);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

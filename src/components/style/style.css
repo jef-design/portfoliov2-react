@@ -59,7 +59,6 @@ a {
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 700;
   color: var(--textPrimaryColor);
   margin: 0;
   padding: 0;
@@ -170,7 +169,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .helper__top {
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 .hero {
@@ -193,7 +192,7 @@ h1, h2, h3, h4, h5 {
 .hero .hero__bigheader {
   font-size: clamp(40px, 8vw, 80px);
   color: var(--textPrimaryColor);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .hero .hero__bigheader .hero__span {
@@ -256,7 +255,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .project .project__wrapper .project__container {
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,7 +291,7 @@ h1, h2, h3, h4, h5 {
   margin-right: 7px;
   background-color: var(--primaryColor);
   color: var(--textWhiteColor);
-  padding: 2px 5px;
+  padding: 2px 7px;
   border-radius: 5px;
 }
 
@@ -335,7 +334,7 @@ h1, h2, h3, h4, h5 {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  margin-top: 5rem;
+  margin-top: 3rem;
   gap: 4rem;
   color: var(--textParagraphHighlight);
 }
@@ -381,7 +380,7 @@ h1, h2, h3, h4, h5 {
   color: var(--textParagraphHighlight);
 }
 
-.more__Works__cta {
+.more__works__cta {
   margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,13 +391,91 @@ h1, h2, h3, h4, h5 {
   color: var(--primaryColor);
 }
 
-.more__Works__cta h2 {
+.more__works__cta h2 {
   text-decoration: underline;
-  color: var(--primaryColor) !important;
+  color: var(--primaryColor);
 }
 
-.more__Works__cta i {
+.more__works__cta h2:hover {
+  color: var(--textParagraphHighlight);
+}
+
+.more__works__cta i {
   font-size: 3rem;
+}
+
+.more__works__cta:hover {
+  color: var(--textParagraphHighlight);
+}
+
+.about .about__wrapper {
+  margin-top: 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+@media screen and (max-width: 853px) {
+  .about .about__wrapper {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.about .about__wrapper .about__info p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__title {
+  margin-bottom: 20px;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill:nth-child(1) {
+  color: #e34c26;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill:nth-child(2) {
+  color: #264de4;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill:nth-child(3) {
+  color: #cc6699;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill:nth-child(4) {
+  color: #f9dc1c;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill i {
+  font-size: 3rem;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill p {
+  color: var(--textParagraphHighlight);
 }
 
 .footer .footer__bottom {

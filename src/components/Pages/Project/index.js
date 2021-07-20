@@ -11,7 +11,7 @@ function Project({ data }) {
                 <title>Projects - Jeff Bermejo</title>
             </Helmet>
         <div>
-            <h2 className="section__title">Projects I've Built</h2>
+            <h1 className="section__title">Projects I've Built</h1>
         </div>
         <div className="selected__project__wrapper">
             {ProjectData.map((project, index) => {
