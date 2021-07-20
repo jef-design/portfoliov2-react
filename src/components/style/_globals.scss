@@ -65,10 +65,11 @@ h1,h2,h3,h4,h5{
 .section__title{
     position: relative;
     padding-left: .5rem;
+    
     &::before{
     content: "";
     display: block;
-    height: 27px;
+    height: 30px;
     background-color: #1a5cff;
     background-color: var(--primaryColor);
     width: 5px;
