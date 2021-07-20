@@ -414,7 +414,9 @@ h1, h2, h3, h4, h5 {
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
+  -webkit-column-gap: 5rem;
+          column-gap: 5rem;
+  row-gap: 2rem;
 }
 
 @media screen and (max-width: 853px) {
@@ -476,6 +478,30 @@ h1, h2, h3, h4, h5 {
 
 .about .about__wrapper .about__skill .skill__container .skill__wrapper .skill p {
   color: var(--textParagraphHighlight);
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill2:nth-child(1) {
+  color: #61DBFB;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill2:nth-child(2) {
+  color: #602C50;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill2:nth-child(3) {
+  color: #764abc;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill3:nth-child(1) {
+  color: #000;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill3:nth-child(2) {
+  color: #F1502F;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__wrapper .skill3:nth-child(3) {
+  color: #211F1F;
 }
 
 .footer .footer__bottom {
