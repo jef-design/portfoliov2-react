@@ -66,7 +66,7 @@ function About() {
                                     <p>Redux</p>
                                 </div>
                                 <div className="skill skill2">
-                                    <i className="bx bxs-tailwind-css"></i>
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABaUlEQVRIS+2V4W3CQAyFXyYoG9ANygiwAZ0AOgFsUJgAmAC6ASN0BLpBR2g3QB/yVdHpcvFFUfMnlpAi4vPn9+yDSgNFNRBXI/jfnB+t9lg9kfQi6VkSzzdJX5J+PIdDTonVQDaStgasc4BeJO29DZSAKbxqUYX6N3Mhm+oFo3JnqlC3ljRtqMz7RQKOY3y+OecFHw1cnyPNHDJw3n/Y+6WNaN5lxikGys/OpWIEjOsRXsW52qi4SnrKJLF0jOov+gBTjNmhHktn1gRXjHli+WOuHjCH3+2u8sxs2ViUMbeiO5tyIqUYS4A2BdBXSZ/O2SbTYnDnZYmqY33WlRiMnSjGUoJGuEpNi8P8TjUoQM7zfTbqYH576TLulBljaxOcxeGacJ7lYoNp1g3OJQKnOH8OuWDxcKk1Sq5TsJHCsfpfU4lS18aXgIMKGsCBcM2wmt1wAUORLuBWGz0JI9jjUi85o9W92Ogpcgf4Zj4fsShVugAAAABJRU5ErkJggg=="/>
                                     <p>Tailwind CSS</p>
                                 </div>
                                 <div className="skill skill2">
