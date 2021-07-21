@@ -30,7 +30,7 @@ function SelectedProject({data}) {
             <Link to="/project">
             <div className="more__works__cta">
             <h2>See more projects</h2>
-            <i className='bx bx-right-arrow-alt'></i>
+            <i className='bx bx-chevron-right'></i>
             </div>
             </Link>
         </section>

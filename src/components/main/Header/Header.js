@@ -10,6 +10,7 @@ const Header = () => {
             </Helmet>
             <header className="header container">
                 <div className="header__wrapper">
+                <i className='bx bx-menu'></i>
                     <div className="header__title">
                         <Link to="/"><p>JEFF</p></Link>
                     </div>

@@ -11,7 +11,7 @@ export const ProjectData = [
         img: project1,
         alt: 'Voodu',
         title: 'Voodu Movie Site',
-        description: 'A movie wesite that shows details and trailers of movies, tv shows and people using TMDB API Built with Reactjs and Redux',
+        description: 'A movie website that shows details and trailers of movies, tv shows and people using TMDB API Built with Reactjs and Redux',
         tech_use: [
             // {name: 'HTML'},
             // {name: 'CSS'},

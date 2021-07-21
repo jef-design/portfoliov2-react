@@ -11,6 +11,17 @@
     z-index: 1;
     .header__wrapper{
         display: flex;
+        align-items: center;
+        i{
+            font-size: var(--fontMedium);
+            color: #000;
+            cursor: pointer;
+            display: none;
+            @media screen and (max-width: 853px){
+                display: block;
+                margin-right: 10px;
+            }
+        }
         .nav__menu{
             display: flex;
             li{
@@ -25,6 +36,19 @@
                     }
                 }
                 
+            }
+            @media screen and (max-width: 853px){
+                position: absolute;
+                left: 0;
+                top: 5rem;
+                flex-direction: column;
+                width: 100%;
+                z-index: 5;
+                height: 50vh;
+                background-color: #fff;
+                display: none;
+                
+
             }
         }
     }

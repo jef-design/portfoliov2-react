@@ -1,8 +1,11 @@
-import React from "react";
+import React,{ useEffect } from "react";
 import { useParams } from "react-router";
 import { ProjectData } from "../../../data/ProjectData";
 
 function ProjectInfo({ data }) {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     const {title} = useParams();
     console.log(title);
     return (

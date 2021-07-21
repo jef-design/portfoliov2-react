@@ -7,7 +7,7 @@ function Hero() {
             <Fade top>
             <div>
                 <h1 className="hero__bigheader">
-                    Hi there i'm <span className="hero__span">Jeff</span>
+                    Hi there I'm <span className="hero__span">Jeff</span>
                 </h1>
             </div>
             <div>

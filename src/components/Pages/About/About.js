@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 function About() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <React.Fragment>
             <Helmet>
                 <title>About - Jeff Bermejo</title>
             </Helmet>
-            <section className="about section__title helper__top">
-                <h1>Some things about me</h1>
+            <section className="about helper__top">
+                <h1 className="section__title ">Some things about me</h1>
                 <div className="about__wrapper">
                     <div className="about__info">
                         <p>
@@ -19,7 +22,10 @@ function About() {
                             coded.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam corrupti rem possimus excepturi maiores quos fugit architecto totam perferendis, ex alias, aliquam ab, recusandae quia.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Veniam corrupti rem possimus excepturi maiores
+                            quos fugit architecto totam perferendis, ex alias,
+                            aliquam ab, recusandae quia.
                         </p>
                     </div>
                     <div className="about__skill">
@@ -56,12 +62,16 @@ function About() {
                                     <p>React.js</p>
                                 </div>
                                 <div className="skill skill2">
-                                    <i class="bx bxl-bootstrap"></i>
-                                    <p>Bootstrap</p>
-                                </div>
-                                <div className="skill skill2">
                                     <i class="bx bxl-redux"></i>
                                     <p>Redux</p>
+                                </div>
+                                <div className="skill skill2">
+                                    <i className="bx bxs-tailwind-css"></i>
+                                    <p>Tailwind CSS</p>
+                                </div>
+                                <div className="skill skill2">
+                                    <i class="bx bxl-bootstrap"></i>
+                                    <p>Bootstrap</p>
                                 </div>
                             </div>
                         </div>

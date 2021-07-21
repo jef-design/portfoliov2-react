@@ -7,7 +7,7 @@
            margin-bottom: 8rem;
             .project__image{
                 max-width: 500px;
-                height: 330px;
+                max-height: 300px;
                 margin-right: 50px;
                 img{
                     width: 100%;
@@ -103,6 +103,13 @@
     display: flex;
     align-items: center;
     color: var(--primaryColor);
+    &:hover h2{
+        color: var(--textParagraphHighlight);
+    }
+    &:hover i{
+        color: var(--textParagraphHighlight);
+        transform: translateX(10px);
+    }
     h2{
         text-decoration: underline;
         color: var(--primaryColor);
@@ -113,8 +120,7 @@
     }
     i{
         font-size: 3rem;
+        transition: .2s ease;
     }
-    &:hover{
-        color: var(--textParagraphHighlight);
-    }
+    
 }
