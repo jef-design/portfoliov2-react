@@ -9,6 +9,7 @@ function Home() {
             <Hero/>
             {/* <Project data={ProjectData} /> */}
             <SelectedProject data={ProjectData} />
+            
         </React.Fragment>
     )
 }

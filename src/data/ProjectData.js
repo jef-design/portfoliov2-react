@@ -8,10 +8,10 @@ import voodudesktop from '../components/assets/images/Projects/voodu/voodumovies
 import socialmobile from '../components/assets/images/Projects/social/social-media-mobile.JPG'
 import socialdesktop from '../components/assets/images/Projects/social/social-media-desktop-dark.JPG'
 import restcountriesdesktop from '../components/assets/images/Projects/rest-countries/rest-countries-desktop.JPG'
-import bookmarkmobile from '../components/assets/images/Projects/bookmark/bookmark-mobile.JPG'
-import bookmarkdesktop from '../components/assets/images/Projects/bookmark/bookmark-desktop.JPG'
-import managemobile from '../components/assets/images/Projects/manage/manage-mobile.JPG'
-import managedesktop from '../components/assets/images/Projects/manage/manage-desktop.JPG'
+import bookmarkmobile from '../components/assets/images/Projects/bookmark/bookmark-mobile2.png'
+import bookmarkdesktop from '../components/assets/images/Projects/bookmark/bookmark-desktop2.png'
+import managemobile from '../components/assets/images/Projects/manage/manage-mobile2.png'
+import managedesktop from '../components/assets/images/Projects/manage/manage-desktop2.png'
 
 
 export const ProjectData = [

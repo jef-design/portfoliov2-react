@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import { ProjectData } from "../../../data/ProjectData";
+import {Helmet} from 'react-helmet'
 
 function ProjectInfo({ data }) {
     useEffect(() => {
@@ -29,6 +30,9 @@ function ProjectInfo({ data }) {
                         } = project;
                         return (
                             <>
+                            <Helmet>
+                                <title>{title} - Projects</title>
+                            </Helmet>
                                 <h2>{title}</h2>
                                 <div className="project__container" key={index}>
                                     <div className="project__image">
