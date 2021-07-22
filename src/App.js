@@ -1,3 +1,4 @@
+import React, {useState,useEffect} from 'react';
 import "./components/style/style.css";
 import Header from "./components/main/Header/Header";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -10,6 +11,25 @@ import Contact from "./components/main/Contact/Contact";
 import About from "./components/Pages/About/About";
 
 function App() {
+    const [isLoading, setLoading] = useState(true);
+
+    function fakeRequest() {
+        return new Promise(resolve => setTimeout(() => resolve(), 1500));
+      }
+    
+      useEffect(() => {
+        fakeRequest().then(() => {
+          const el = document.querySelector(".loader-container");
+          if (el) {
+            el.remove();
+            setLoading(!isLoading);
+          }
+        });
+      }, []);
+    
+      if (isLoading) {
+        return null;
+      }
     return (
         <Router>
             <div className="App">
