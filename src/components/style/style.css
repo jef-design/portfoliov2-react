@@ -229,18 +229,26 @@ h1, h2, h3, h4, h5 {
 }
 
 @media screen and (max-width: 853px) {
+  .header .header__wrapper .nav__menu li {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 853px) {
   .header .header__wrapper .nav__menu {
     position: absolute;
     left: 0;
-    top: 5rem;
+    top: 4rem;
+    padding-top: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
     z-index: 5;
-    height: 50vh;
+    height: 40vh;
     background-color: #fff;
+    border-bottom: 2px solid #ddd;
     display: none;
   }
 }

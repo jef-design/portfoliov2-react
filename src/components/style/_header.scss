@@ -35,17 +35,22 @@
                         color: var(--primaryColor);
                     }
                 }
+                @media screen and (max-width: 853px){
+                    margin-bottom: 20px;
+                }
                 
             }
             @media screen and (max-width: 853px){
                 position: absolute;
                 left: 0;
-                top: 5rem;
+                top: 4rem;
+                padding-top: 20px;
                 flex-direction: column;
                 width: 100%;
                 z-index: 5;
-                height: 50vh;
+                height: 40vh;
                 background-color: #fff;
+                border-bottom: 2px solid #ddd;
                 display: none;
                 
 
