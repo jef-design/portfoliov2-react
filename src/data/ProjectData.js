@@ -3,11 +3,12 @@ import project3 from '../components/assets/images/Projects/project-restcountries
 import project2 from '../components/assets/images/Projects/project-social.jpg';
 import project4 from '../components/assets/images/Projects/project-bookmark.jpg';
 import project5 from '../components/assets/images/Projects/project-manage.jpg';
-import voodumobile from '../components/assets/images/Projects/voodu/voodutv.JPG'
-import voodudesktop from '../components/assets/images/Projects/voodu/voodumovies.JPG'
-import socialmobile from '../components/assets/images/Projects/social/social-media-mobile.JPG'
-import socialdesktop from '../components/assets/images/Projects/social/social-media-desktop-dark.JPG'
-import restcountriesdesktop from '../components/assets/images/Projects/rest-countries/rest-countries-desktop.JPG'
+import voodumobile from '../components/assets/images/Projects/voodu/voodu-mobile.png'
+import voodudesktop from '../components/assets/images/Projects/voodu/voodu-desktop.png'
+import socialmobile from '../components/assets/images/Projects/social/social-mobile2.png'
+import socialdesktop from '../components/assets/images/Projects/social/social-media-desktop-dark.png'
+import restcountriesdesktop from '../components/assets/images/Projects/rest-countries/rest-countries-desktop.png'
+import restcountriesmobile from '../components/assets/images/Projects/rest-countries/rest-countries-mobile.png'
 import bookmarkmobile from '../components/assets/images/Projects/bookmark/bookmark-mobile2.png'
 import bookmarkdesktop from '../components/assets/images/Projects/bookmark/bookmark-desktop2.png'
 import managemobile from '../components/assets/images/Projects/manage/manage-mobile2.png'
@@ -52,7 +53,7 @@ export const ProjectData = [
     ,
     {
         img: project3,
-        // mobile_view: restcountriesmobile,
+        mobile_view: restcountriesmobile,
         desktop_view:restcountriesdesktop,
         alt: 'Country Info',
         title: 'CountryInfo',
