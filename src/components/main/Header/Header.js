@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="header__wrapper">
                 <i className='bx bx-menu' onClick={()=> setIsOpen(!isOpen)}></i>
                     <div className="header__title">
-                        <Link to="/" onClick={()=> setIsOpen(!isOpen)}><p>JEFF</p></Link>
+                        <Link to="/"><p>JEFF</p></Link>
                     </div>
                     <ul className="nav__menu" style={{display: isOpen ? "flex" : ""}}>
                         <li>
