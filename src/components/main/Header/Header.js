@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import { Link } from "react-router-dom";
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 const Header = () => {
     const [isOpen,setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="header__wrapper">
                 <i className='bx bx-menu' onClick={()=> setIsOpen(!isOpen)}></i>
                     <div className="header__title">
-                        <Link to="/"><p>JEFF</p></Link>
+                        <Link to="/"><h2>JEFF</h2></Link>
                     </div>
                     <ul className="nav__menu" style={{display: isOpen ? "flex" : ""}}>
                         <li>
@@ -25,8 +25,8 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="header__social">
-                <Link href="https://github.com/jef-design"><i className='bx bxl-github'></i></Link>
-                <Link href="https://www.linkedin.com/in/jeff-bermejo-b14288217/"><i className='bx bxl-linkedin' ></i></Link>
+                <a href="https://github.com/jef-design"><i className='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/jeff-bermejo-b14288217/"><i className='bx bxl-linkedin' ></i></a>
                 </div>
             </header>
         </React.Fragment>

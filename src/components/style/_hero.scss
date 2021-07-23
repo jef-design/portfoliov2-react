@@ -41,6 +41,7 @@
             a{
                 text-decoration: underline;
                 transition: .2s linear;
+                color: var(--textSecondaryColor);
                 &:hover{
                     // transform: scale(.9);
                     transform: translateY(-5px);

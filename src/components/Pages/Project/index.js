@@ -1,7 +1,7 @@
 import React from 'react'
 import { ProjectData } from '../../../data/ProjectData'
 import ProjectCard from '../../main/Projects/ProjectCard';
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 function Project({ data }) {
 

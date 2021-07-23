@@ -195,6 +195,11 @@ h1, h2, h3, h4, h5 {
           align-items: center;
 }
 
+.header .header__wrapper .header__title h2 {
+  color: var(--textSecondaryColor);
+  font-weight: 800;
+}
+
 .header .header__wrapper i {
   font-size: var(--fontMedium);
   color: #000;
@@ -264,6 +269,7 @@ h1, h2, h3, h4, h5 {
 
 .header .header__social i {
   font-size: var(--fontMedium);
+  color: var(--textSecondaryColor);
 }
 
 .container {
@@ -349,6 +355,7 @@ h1, h2, h3, h4, h5 {
   text-decoration: underline;
   -webkit-transition: .2s linear;
   transition: .2s linear;
+  color: var(--textSecondaryColor);
 }
 
 .hero .hero__cta h3 a:hover {

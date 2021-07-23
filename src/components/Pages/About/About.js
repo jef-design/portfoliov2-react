@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function About() {
     useEffect(() => {
@@ -22,10 +22,7 @@ function About() {
                             coded.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Veniam corrupti rem possimus excepturi maiores
-                            quos fugit architecto totam perferendis, ex alias,
-                            aliquam ab, recusandae quia.
+                        I enjoy my time creating websites specially on the front-end. I look forward into learning more.
                         </p>
                     </div>
                     <div className="about__skill">
@@ -37,19 +34,19 @@ function About() {
                             <h3>Languages</h3>
                             <div className="skill__wrapper">
                                 <div className="skill">
-                                    <i class="bx bxl-html5"></i>
+                                    <i className="bx bxl-html5"></i>
                                     <p>HTML</p>
                                 </div>
                                 <div className="skill">
-                                    <i class="bx bxl-css3"></i>
+                                    <i className="bx bxl-css3"></i>
                                     <p>CSS</p>
                                 </div>
                                 <div className="skill">
-                                    <i class="bx bxl-sass"></i>
+                                    <i className="bx bxl-sass"></i>
                                     <p>SASS</p>
                                 </div>
                                 <div className="skill">
-                                    <i class="bx bxl-javascript"></i>
+                                    <i className="bx bxl-javascript"></i>
                                     <p>Javascript</p>
                                 </div>
                             </div>
@@ -58,20 +55,20 @@ function About() {
                             <h3>Libraries/Frameworks</h3>
                             <div className="skill__wrapper ">
                                 <div className="skill skill2">
-                                    <i class="bx bxl-react"></i>
+                                    <i className="bx bxl-react"></i>
                                     <p>React.js</p>
                                 </div>
                                 <div className="skill skill2">
-                                    <i class="bx bxl-redux"></i>
+                                    <i className="bx bxl-redux"></i>
                                     <p>Redux</p>
                                 </div>
                                 <div className="skill skill2">
                                 {/* <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABaUlEQVRIS+2V4W3CQAyFXyYoG9ANygiwAZ0AOgFsUJgAmAC6ASN0BLpBR2g3QB/yVdHpcvFFUfMnlpAi4vPn9+yDSgNFNRBXI/jfnB+t9lg9kfQi6VkSzzdJX5J+PIdDTonVQDaStgasc4BeJO29DZSAKbxqUYX6N3Mhm+oFo3JnqlC3ljRtqMz7RQKOY3y+OecFHw1cnyPNHDJw3n/Y+6WNaN5lxikGys/OpWIEjOsRXsW52qi4SnrKJLF0jOov+gBTjNmhHktn1gRXjHli+WOuHjCH3+2u8sxs2ViUMbeiO5tyIqUYS4A2BdBXSZ/O2SbTYnDnZYmqY33WlRiMnSjGUoJGuEpNi8P8TjUoQM7zfTbqYH576TLulBljaxOcxeGacJ7lYoNp1g3OJQKnOH8OuWDxcKk1Sq5TsJHCsfpfU4lS18aXgIMKGsCBcM2wmt1wAUORLuBWGz0JI9jjUi85o9W92Ogpcgf4Zj4fsShVugAAAABJRU5ErkJggg=="/> */}
-                                <i class='bx bxl-tailwind-css'></i>
+                                <i className='bx bxl-tailwind-css'></i>
                                     <p>Tailwind CSS</p>
                                 </div>
                                 <div className="skill skill2">
-                                    <i class="bx bxl-bootstrap"></i>
+                                    <i className="bx bxl-bootstrap"></i>
                                     <p>Bootstrap</p>
                                 </div>
                             </div>
@@ -80,15 +77,15 @@ function About() {
                             <h3>Tools</h3>
                             <div className="skill__wrapper">
                                 <div className="skill skill3">
-                                    <i class="bx bxl-figma"></i>
+                                    <i className="bx bxl-figma"></i>
                                     <p>Figma</p>
                                 </div>
                                 <div className="skill skill3">
-                                    <i class="bx bxl-git"></i>
+                                    <i className="bx bxl-git"></i>
                                     <p>Git</p>
                                 </div>
                                 <div className="skill skill3">
-                                    <i class="bx bxl-github"></i>
+                                    <i className="bx bxl-github"></i>
                                     <p>Github</p>
                                 </div>
                             </div>

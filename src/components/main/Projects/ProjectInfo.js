@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router";
 import { ProjectData } from "../../../data/ProjectData";
-import {Helmet} from 'react-helmet'
+import {Helmet} from 'react-helmet-async'
 
 function ProjectInfo({ data }) {
     useEffect(() => {

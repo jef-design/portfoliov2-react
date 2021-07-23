@@ -13,23 +13,23 @@ import About from "./components/Pages/About/About";
 function App() {
     const [isLoading, setLoading] = useState(true);
 
-    function fakeRequest() {
-        return new Promise(resolve => setTimeout(() => resolve(), 900));
-      }
+    // function fakeRequest() {
+    //     return new Promise(resolve => setTimeout(() => resolve(), 900));
+    //   }
     
-      useEffect(() => {
-        fakeRequest().then(() => {
-          const el = document.querySelector(".loader-container");
-          if (el) {
-            el.remove();
-            setLoading(!isLoading);
-          }
-        });
-      }, []);
+    //   useEffect(() => {
+    //     fakeRequest().then(() => {
+    //       const el = document.querySelector(".loader-container");
+    //       if (el) {
+    //         el.remove();
+    //         setLoading(!isLoading);
+    //       }
+    //     });
+    //   }, [isLoading]);
     
-      if (isLoading) {
-        return null;
-      }
+    //   if (isLoading) {
+    //     return null;
+    //   }
     return (
         <Router>
             <div className="App">
