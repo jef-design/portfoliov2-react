@@ -28,7 +28,10 @@ const Header = () => {
                 <a href="https://github.com/jef-design"><i className='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/jeff-bermejo-b14288217/"><i className='bx bxl-linkedin' ></i></a>
                 </div>
+                
             </header>
+            {/* <div className="blur" style={{display: isOpen ? "block" : ""}}>
+                </div> */}
         </React.Fragment>
     );
 };
