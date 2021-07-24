@@ -57,7 +57,7 @@ export const ProjectData = [
         desktop_view:restcountriesdesktop,
         alt: 'Country Info',
         title: 'CountryInfo',
-        description: 'Website that can show the details about different countries using Rest Countries API Built with Reactjs and Redux',
+        description: 'CountryInfo provides a  information about the world\'s nations consuming REST COUNTRIES API. These calls allow users to retrieve all available countries or to retrieve a given country or country code.Built with Reactjs',
         tech_use: [
             {name: 'React.js'},
             {name: 'Styled-Components'},
