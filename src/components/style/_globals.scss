@@ -13,6 +13,7 @@ body{
     // font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
     color: var(--textParagraphHighlight);
+    line-height: 1.4;
     &::-webkit-scrollbar {
         width: 7px;
       }
@@ -69,15 +70,16 @@ h1,h2,h3,h4,h5{
     &::before{
     content: "";
     display: block;
-    height: 30px;
+    height: 20px;
     background-color: #1a5cff;
     background-color: var(--primaryColor);
-    width: 5px;
+    width: 4px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
-    margin-right: 100px;
+    margin-top: 5px;
+    
     }
 }
 .loader-container{

@@ -22,7 +22,7 @@ export const ProjectData = [
         mobile_view: voodumobile,
         desktop_view: voodudesktop,
         alt: 'Voodu',
-        title: 'Voodu Movie Site',
+        title: 'Voodu',
         description: 'A movie website that shows details and trailers of movies, tv shows and people using TMDB API Built with Reactjs and Redux',
         tech_use: [
             // {name: 'HTML'},

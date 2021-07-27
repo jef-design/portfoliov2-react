@@ -22,7 +22,7 @@ function About() {
                             coded.
                         </p>
                         <p>
-                        I enjoy my time creating websites specially on the front-end. I look forward into learning more.
+                        I'm open to learning, adapt to work with the team, freelance opportunities, contract jobs and use skills to solve complex UI challenges and provide value to the growth of an organization.
                         </p>
                     </div>
                     <div className="about__skill">
@@ -31,7 +31,7 @@ function About() {
                                 Here are a few technologies I've been working
                                 with recently:
                             </h3>
-                            <h3>Languages</h3>
+                            <h4>Languages</h4>
                             <div className="skill__wrapper">
                                 <div className="skill">
                                     <i className="bx bxl-html5"></i>
@@ -52,7 +52,7 @@ function About() {
                             </div>
                         </div>
                         <div className="skill__container">
-                            <h3>Libraries/Frameworks</h3>
+                            <h4>Libraries/Frameworks</h4>
                             <div className="skill__wrapper ">
                                 <div className="skill skill2">
                                     <i className="bx bxl-react"></i>
@@ -63,9 +63,12 @@ function About() {
                                     <p>Redux</p>
                                 </div>
                                 <div className="skill skill2">
-                                {/* <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAABaUlEQVRIS+2V4W3CQAyFXyYoG9ANygiwAZ0AOgFsUJgAmAC6ASN0BLpBR2g3QB/yVdHpcvFFUfMnlpAi4vPn9+yDSgNFNRBXI/jfnB+t9lg9kfQi6VkSzzdJX5J+PIdDTonVQDaStgasc4BeJO29DZSAKbxqUYX6N3Mhm+oFo3JnqlC3ljRtqMz7RQKOY3y+OecFHw1cnyPNHDJw3n/Y+6WNaN5lxikGys/OpWIEjOsRXsW52qi4SnrKJLF0jOov+gBTjNmhHktn1gRXjHli+WOuHjCH3+2u8sxs2ViUMbeiO5tyIqUYS4A2BdBXSZ/O2SbTYnDnZYmqY33WlRiMnSjGUoJGuEpNi8P8TjUoQM7zfTbqYH576TLulBljaxOcxeGacJ7lYoNp1g3OJQKnOH8OuWDxcKk1Sq5TsJHCsfpfU4lS18aXgIMKGsCBcM2wmt1wAUORLuBWGz0JI9jjUi85o9W92Ogpcgf4Zj4fsShVugAAAABJRU5ErkJggg=="/> */}
-                                <i className='bx bxl-tailwind-css'></i>
+                                <img style={{width: "48px"}} src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="" />
                                     <p>Tailwind CSS</p>
+                                </div>
+                                <div className="skill skill2">
+                                <img style={{height: "48px"}} src="https://images.ctfassets.net/qcrphhesuv4n/6cZj9wicrfq7gQwyYy7RcI/9ec870532475e09f72bb1c7143a4564b/1_p1TndLk3UsGPBsM7qHPZIw.png?w=294&h=175&q=50&fm=png" alt="" />
+                                    <p>Styled-Components</p>
                                 </div>
                                 <div className="skill skill2">
                                     <i className="bx bxl-bootstrap"></i>
@@ -74,7 +77,7 @@ function About() {
                             </div>
                         </div>
                         <div className="skill__container">
-                            <h3>Tools</h3>
+                            <h4>Tools</h4>
                             <div className="skill__wrapper">
                                 <div className="skill skill3">
                                     <i className="bx bxl-figma"></i>
@@ -87,6 +90,14 @@ function About() {
                                 <div className="skill skill3">
                                     <i className="bx bxl-github"></i>
                                     <p>Github</p>
+                                </div>
+                                <div className="skill skill3">
+                                <img style={{width: "48px"}} src="https://s3-us-west-2.amazonaws.com/assertible/integrations/postman-mark.png" alt="" />
+                                    <p>Postman</p>
+                                </div>
+                                <div className="skill skill3">
+                                <img style={{height: "48px", width: "48px"}} src="https://raw.githubusercontent.com/npm/logos/cc343d8c50139f645d165aedfe4d375240599fd1/npm%20logo/npm-logo-red.svg" alt="" />
+                                    <p>npm</p>
                                 </div>
                             </div>
                         </div>

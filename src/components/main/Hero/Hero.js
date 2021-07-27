@@ -14,6 +14,9 @@ function Hero() {
                 <h1 className="hero__bigheader">
                     I <span className="hero__span">build</span> things for the <span className="hero__span">Web.</span>
                 </h1>
+                <p className="hero__text">
+                I design and build quality responsive websites, clean user interfaces and interactive web apps. Using React and other web development opportunities.
+                </p>
             </div>
             </Fade>
            <Fade bottom>

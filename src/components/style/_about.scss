@@ -17,17 +17,15 @@
         }
         .about__skill{
             .skill__container{
-                .skill__title{
-                 margin-bottom: 20px;
-                }
                 .skill__wrapper{
                     padding: 15px 0;
                     display: flex;
+                    flex-wrap: wrap;
                     .skill{
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        margin-right: 10px;
+                        margin-right: 20px;
                         &:nth-child(1){
                             color: #e34c26;
                         }
@@ -43,6 +41,8 @@
 
                         i{
                             font-size: 3rem;
+                            height: 48px;
+                            width: 48px;
 
                         }
                         p{
@@ -59,7 +59,7 @@
                         &:nth-child(3){
                             color: skyblue;
                         }
-                        &:nth-child(4){
+                        &:nth-child(5){
                             color: #764abc;
                         }
                     }
