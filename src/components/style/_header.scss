@@ -83,11 +83,10 @@
         left: 0;
         right: 0;
         bottom: 0;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.5);
         display: none;
-        @media screen and (min-width: 853px){
-            // display: block;
-        }
+        
+        
     }
