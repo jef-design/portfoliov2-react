@@ -36,22 +36,6 @@ export const ProjectData = [
         github_repo: 'https://github.com/jef-design/voodu-movie'
     },
     {
-        img: project2,
-        mobile_view: socialmobile,
-        desktop_view: socialdesktop,
-        alt: 'Social Media Dashboard',
-        title: 'Social Media Dashboard',
-        description: 'A Social Media Dashboard challenge with theme switcher(light & dark) from front-end mentor',
-        tech_use: [
-            {name: 'HTML'},
-            {name: 'CSS'},
-            {name: 'Javascript'},
-        ],
-        site_link: 'https://socialmediadashboard00.netlify.app/',
-        github_repo: 'https://github.com/jef-design/voodu-movie'
-    }
-    ,
-    {
         img: project3,
         mobile_view: restcountriesmobile,
         desktop_view:restcountriesdesktop,
@@ -67,6 +51,22 @@ export const ProjectData = [
         site_link: 'https://country-infoo.netlify.app/',
         github_repo: 'https://github.com/jef-design/voodu-movie'
     },
+    {
+        img: project2,
+        mobile_view: socialmobile,
+        desktop_view: socialdesktop,
+        alt: 'Social Media Dashboard',
+        title: 'Social Media Dashboard',
+        description: 'A Social Media Dashboard challenge with theme switcher(light & dark) from front-end mentor',
+        tech_use: [
+            {name: 'HTML'},
+            {name: 'CSS'},
+            {name: 'Javascript'},
+        ],
+        site_link: 'https://socialmediadashboard00.netlify.app/',
+        github_repo: 'https://github.com/jef-design/voodu-movie'
+    }
+    ,
     {
         img: project4,
         mobile_view: bookmarkmobile,

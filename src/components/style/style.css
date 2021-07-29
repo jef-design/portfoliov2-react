@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
   top: 0;
   left: 0;
   bottom: 0;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .loader-container {
@@ -285,6 +285,12 @@ h1, h2, h3, h4, h5 {
   display: none;
 }
 
+@media screen and (max-width: 853px) {
+  .blur {
+    display: block;
+  }
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
@@ -386,16 +392,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .project .project__wrapper .project__container {
-  margin-top: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 853px) {
+  .project .project__wrapper .project__container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .project .project__wrapper .project__container .project__image {
   max-width: 500px;
   max-height: 300px;
-  margin-right: 50px;
+  position: relative;
 }
 
 .project .project__wrapper .project__container .project__image img {
@@ -430,24 +444,28 @@ h1, h2, h3, h4, h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 220px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: underline;
+  line-height: 1.8;
 }
 
 .project .project__wrapper .project__container .project__description .project__btn .btn_sitelink {
-  background-color: var(--textSecondaryColor);
-  color: var(--textWhiteColor);
-  padding: 5px 10px;
-  border-radius: 5px;
+  color: var(--primaryColor);
+}
+
+.project .project__wrapper .project__container .project__description .project__btn .btn_sitelink:hover {
+  color: var(--textParagraphHighlight);
 }
 
 .project .project__wrapper .project__container .project__description .project__btn .btn_githubrepo {
-  background-color: var(--textPrimaryColor);
-  color: var(--textWhiteColor);
-  padding: 5px 10px;
-  border-radius: 5px;
+  color: var(--primaryColor);
+}
+
+.project .project__wrapper .project__container .project__description .project__btn .btn_githubrepo:hover {
+  color: var(--textParagraphHighlight);
 }
 
 @media screen and (max-width: 853px) {
@@ -610,6 +628,10 @@ h1, h2, h3, h4, h5 {
 .about .about__wrapper .about__info p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.about .about__wrapper .about__skill .skill__container .skill__title {
+  margin-bottom: 2rem;
 }
 
 .about .about__wrapper .about__skill .skill__container .skill__wrapper {

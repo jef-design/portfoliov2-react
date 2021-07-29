@@ -40,17 +40,18 @@ function ProjectInfo({ data }) {
                                     </div>
                                     <div className="project__description">
                                         <div className="project__btn">
+                                            
                                             <a
-                                                className="btn btn_sitelink"
+                                                className="btn_sitelink"
                                                 href={site_link}
                                             >
-                                                Visit site
+                                                View live site
                                             </a>
                                             <a
-                                                className="btn btn_githubrepo"
+                                                className="btn_githubrepo"
                                                 href={github_repo}
                                             >
-                                                Github Repo
+                                                Github Repository
                                             </a>
                                         </div>
                                         <p>{description}</p>
