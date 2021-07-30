@@ -32,7 +32,7 @@ export const ProjectData = [
             {name: 'Redux'},
             {name: 'API'}, 
         ],
-        site_link: 'https://voodu.netlify.app/',
+        site_link: 'https://vooduu-demo.netlify.app/',
         github_repo: 'https://github.com/jef-design/voodu-movie'
     },
     {

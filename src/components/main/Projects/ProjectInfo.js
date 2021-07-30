@@ -32,6 +32,8 @@ function ProjectInfo({ data }) {
                             <>
                             <Helmet>
                                 <title>{title} - Projects</title>
+                                <meta name="description" content={description}/>
+                                <meta property="og:image" content={img}/>
                             </Helmet>
                                 <h2>{title}</h2>
                                 <div className="project__container" key={index}>
