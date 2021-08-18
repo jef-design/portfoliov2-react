@@ -6,7 +6,7 @@ function ProjectCard({ index, img, alt, title, description }) {
         window.scrollTo(0, 0);
     };
     return (
-       <Link to={`/project/${title}`}
+       <Link to={`/project/${title.toLowerCase()}`}
        onClick={onClickLink()}>
         <div className="selected__project__container" key={index}>
             <div className="selected__project__img">

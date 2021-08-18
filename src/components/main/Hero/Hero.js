@@ -23,7 +23,7 @@ function Hero() {
            <div className="hero__cta">
            <h3>Get in touch
            <i className='bx bx-mail-send' ></i>
-           <a href="mailto:bermejojff97@gmail.com">BermejoJeffrey@gmail.com</a>
+           <a href="mailto:bermejojeffreyg@gmail.com">bermejojeffreyg@gmail.com</a>
            </h3>
            </div>
            </Fade>

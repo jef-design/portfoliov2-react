@@ -1,8 +1,11 @@
+import project from '../components/assets/images/Projects/project-gnews.JPG';
 import project1 from '../components/assets/images/Projects/project-voodu.JPG';
 import project3 from '../components/assets/images/Projects/project-restcountries.JPG'
 import project2 from '../components/assets/images/Projects/project-social.jpg';
 import project4 from '../components/assets/images/Projects/project-bookmark.jpg';
 import project5 from '../components/assets/images/Projects/project-manage.jpg';
+import gnewsmobile from '../components/assets/images/Projects/google-news/gnews-mobile.png'
+import gnewsdesktop from '../components/assets/images/Projects/google-news/gnews-desktop.png'
 import voodumobile from '../components/assets/images/Projects/voodu/voodu-mobile.png'
 import voodudesktop from '../components/assets/images/Projects/voodu/voodu-desktop.png'
 import socialmobile from '../components/assets/images/Projects/social/social-mobile2.png'
@@ -34,6 +37,23 @@ export const ProjectData = [
         ],
         site_link: 'https://vooduu-demo.netlify.app/',
         github_repo: 'https://github.com/jef-design/voodu-movie'
+    },
+    {
+        img: project,
+        mobile_view: gnewsmobile,
+        desktop_view: gnewsdesktop,
+        alt: 'Google News',
+        title: 'Google News',
+        description: 'A clone of Google News is a news aggregator service developed by Google. It presents a continuous flow of links to articles organized from thousands of publishers. this clone has a google authentication using next-auth',
+        tech_use: [
+            {name: 'Next.js'},
+            {name: 'Next-Auth'},
+            {name: 'Tailwind CSS'},
+            {name: 'Redux'},
+            {name: 'API'}, 
+        ],
+        site_link: 'https://news-nextjs-app.vercel.app/',
+        github_repo: 'https://github.com/jef-design/news-nextjs-app'
     },
     {
         img: project3,

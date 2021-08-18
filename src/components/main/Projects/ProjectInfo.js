@@ -15,7 +15,7 @@ function ProjectInfo({ data }) {
                 <h2 className="section__title">Some Projects I've Built</h2>
             </div>
             <div className="project__wrapper">
-                {ProjectData.filter(info => info.title === title).map(
+                {ProjectData.filter(info => info.title.toLowerCase() === title).map(
                     (project, index) => {
                         const {
                             img,
@@ -31,9 +31,9 @@ function ProjectInfo({ data }) {
                         return (
                             <>
                             <Helmet>
-                                <title>{title} - Projects</title>
                                 <meta name="description" content={description}/>
                                 <meta property="og:image" content={img}/>
+                                <title>{title} - Projects</title>
                             </Helmet>
                                 <h2>{title}</h2>
                                 <div className="project__container" key={index}>

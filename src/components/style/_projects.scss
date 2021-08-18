@@ -27,12 +27,14 @@
                 .project__techuse{
                     display: flex;
                     padding: 0;
+                    flex-wrap: wrap;
                     li{
                         margin-right: 7px;
                         background-color: var(--primaryColor);
                         color: var(--textWhiteColor);
                         padding: 2px 7px;
                         border-radius: 5px;
+                        margin-bottom: 10px;
                     }
                 }
                 .project__btn{
@@ -143,6 +145,7 @@
     display: flex;
     align-items: center;
     color: var(--primaryColor);
+    max-width: 280px;
     &:hover h2{
         color: var(--textParagraphHighlight);
     }

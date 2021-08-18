@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px 0px;
 }
 
 .header .header__wrapper .header__title h2 {
@@ -580,6 +581,7 @@ h1, h2, h3, h4, h5 {
       -ms-flex-align: center;
           align-items: center;
   color: var(--primaryColor);
+  max-width: 280px;
 }
 
 .more__works__cta:hover h2 {
