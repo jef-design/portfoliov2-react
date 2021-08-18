@@ -44,7 +44,7 @@ export const ProjectData = [
         desktop_view: gnewsdesktop,
         alt: 'Google News',
         title: 'Google News',
-        description: 'A clone of Google News is a news aggregator service developed by Google. It presents a continuous flow of links to articles organized from thousands of publishers. this clone has a google authentication using next-auth',
+        description: 'A clone of Google News Website is a news aggregator service developed by Google. It presents a continuous flow of links to articles organized from thousands of publishers. this clone has a google authentication using next-auth',
         tech_use: [
             {name: 'Next.js'},
             {name: 'Next-Auth'},
@@ -69,7 +69,7 @@ export const ProjectData = [
             {name: 'API'}, 
         ],
         site_link: 'https://country-infoo.netlify.app/',
-        github_repo: 'https://github.com/jef-design/voodu-movie'
+        github_repo: 'https://github.com/jef-design/rest-countries'
     },
     {
         img: project2,
@@ -84,7 +84,7 @@ export const ProjectData = [
             {name: 'Javascript'},
         ],
         site_link: 'https://socialmediadashboard00.netlify.app/',
-        github_repo: 'https://github.com/jef-design/voodu-movie'
+        github_repo: 'https://github.com/jef-design/social-media-dashboard'
     }
     ,
     {

@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .project .project__wrapper {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .project .project__wrapper .project__container {
@@ -430,6 +430,8 @@ h1, h2, h3, h4, h5 {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .project .project__wrapper .project__container .project__description .project__techuse li {
@@ -438,6 +440,7 @@ h1, h2, h3, h4, h5 {
   color: var(--textWhiteColor);
   padding: 2px 7px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .project .project__wrapper .project__container .project__description .project__btn {
